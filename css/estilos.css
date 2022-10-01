@@ -1,0 +1,35 @@
+html{
+    width: 100%;
+}
+
+body{
+    background: url('/imagenes/Sombreros\ de\ Pajas.jpg');
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+h1{
+    color:red;
+    text-align: center;
+    text-transform: none;
+    margin: 30px auto;
+}
+
+div{
+    text-align: center;
+
+}
+a:link, a:visited{
+    background-color: #b5179e;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    border: 3px solid red;
+    border-radius: 10px;
+}
+
+a:hover, a:active{
+    background-color: #f72585;
+    border: #b5179e solid 3px;
+}
